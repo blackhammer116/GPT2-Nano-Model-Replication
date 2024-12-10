@@ -3,9 +3,14 @@ It uses EthioNLP amharic dataset for training. This model however is build for g
 
 ###How to run
 
-`cd [PROJECT_DIR]
+```cd [PROJECT_DIR]
+
 pip install -r requirements.txt
+
 python ethionlp.py
-python train-gpt2.py`
+
+python train-gpt2.py
+
+```
 
 If you have access to multiple GPU's be sure to change the variables 'B' and 'T' in train-gpt2.py file to 64 and 1024 respectively.  
