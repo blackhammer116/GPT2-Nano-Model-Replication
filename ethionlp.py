@@ -1,10 +1,10 @@
 """
-FineWeb-Edu dataset (for srs pretraining)
-https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu
+EthioNlp dataset (for srs pretraining)
+https://huggingface.co/datasets/HuggingFaceFW/ethionlp
 Downloads and tokenizes the data and saves data shards to disk.
 Run simply as:
-$ python fineweb.py
-Will save shards to the local directory "edu_fineweb10B".
+$ python ethionlp.py
+Will save shards to the local directory "ethionlp_10B".
 """
 
 import os
